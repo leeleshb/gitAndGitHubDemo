@@ -13,6 +13,7 @@ public class WriteExcel {
 
 	public static void main(String[] args) throws IOException {
 
+		//code to write into excel file
 		XSSFWorkbook wb = new XSSFWorkbook();
 		XSSFSheet sheet = wb.createSheet("Sheet");
 
