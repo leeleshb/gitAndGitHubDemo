@@ -15,7 +15,7 @@ public class ReadExcel {
 	public static void main(String[] args) throws IOException {
 
 		//code to read excel file externally
-		//single line comment
+		//single line comment only
 		String excelPath = System.getProperty("user.dir") + "\\TutorialsNinjaTestData.xlsx";
 		File excelFile = new File(excelPath);
 		FileInputStream fis = new FileInputStream(excelFile);
